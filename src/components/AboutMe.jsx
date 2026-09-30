@@ -17,8 +17,19 @@ export default function AboutMe() {
         <div className="flex flex-col sm:flex-row items-center gap-4 text-center sm:text-left">
           {/* Avatar with Status */}
           <div className="relative">
-            <div className="w-20 h-20 bg-gradient-to-tr from-yellow-400 via-pink-500 to-purple-600 rounded-2xl flex items-center justify-center text-white text-2xl font-black shadow-md transform hover:rotate-3 transition-transform">
-              KS
+            <div className="w-20 h-20 rounded-2xl overflow-hidden border-2 border-amber-400 dark:border-amber-500 shadow-md transform hover:scale-105 hover:rotate-2 transition-all duration-300 bg-gradient-to-tr from-yellow-400 via-pink-500 to-purple-600 flex items-center justify-center">
+              <img
+                src="/kajol.jpeg"
+                alt="Kajol Sunar"
+                className="w-full h-full object-cover"
+                onError={(e) => {
+                  e.currentTarget.style.display = 'none';
+                  if (e.currentTarget.parentElement) {
+                    e.currentTarget.parentElement.innerText = 'KS';
+                    e.currentTarget.parentElement.className += ' text-white text-2xl font-black';
+                  }
+                }}
+              />
             </div>
             <span className="absolute -bottom-1 -right-1 flex h-4 w-4">
               <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
