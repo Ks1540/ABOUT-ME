@@ -1,6 +1,7 @@
 # 🌸 Kajol Sunar — Interactive Retro OS Portfolio
 
 [![Live Demo](https://img.shields.io/badge/Live%20Demo-about--me--flame--five.vercel.app-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://about-me-flame-five.vercel.app/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-kajol--sunar--ks-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/kajol-sunar-ks/)
 [![GitHub Repo](https://img.shields.io/badge/GitHub-Ks1540%2FABOUT--ME-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Ks1540/ABOUT-ME)
 [![React](https://img.shields.io/badge/React-18-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://react.dev/)
 [![Vite](https://img.shields.io/badge/Vite-5-646CFF?style=for-the-badge&logo=vite&logoColor=white)](https://vitejs.dev/)
@@ -72,5 +73,6 @@ npm run build
 
 **Kajol Sunar**
 - 🎓 B.Tech Computer Science & Engineering
-- 💼 GitHub: [@Ks1540](https://github.com/Ks1540)
+- 💼 LinkedIn: [Kajol Sunar](https://www.linkedin.com/in/kajol-sunar-ks/)
+- 🐙 GitHub: [@Ks1540](https://github.com/Ks1540)
 - 📧 Email: [kajolsunar1292@gmail.com](mailto:kajolsunar1292@gmail.com)

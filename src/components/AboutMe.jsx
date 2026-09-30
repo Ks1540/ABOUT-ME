@@ -265,7 +265,15 @@ export default function AboutMe() {
           <span>{copied ? 'Email Copied!' : 'Copy Email'}</span>
         </button>
 
-        <div className="flex gap-2">
+        <div className="flex flex-wrap gap-2">
+          <a
+            href="https://www.linkedin.com/in/kajol-sunar-ks/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="px-3 py-1.5 bg-[#0A66C2] hover:bg-[#004182] text-white font-bold text-xs rounded-lg shadow-sm transition-all hover:scale-105 flex items-center gap-1.5"
+          >
+            <span>LinkedIn ↗</span>
+          </a>
           <a
             href="https://github.com/Ks1540"
             target="_blank"

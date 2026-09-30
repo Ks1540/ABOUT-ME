@@ -273,7 +273,7 @@ export default function ContactForm() {
 
           {/* LinkedIn */}
           <a
-            href="https://linkedin.com"
+            href="https://www.linkedin.com/in/kajol-sunar-ks/"
             target="_blank"
             rel="noopener noreferrer"
             title="LinkedIn"

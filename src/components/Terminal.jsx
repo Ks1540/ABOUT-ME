@@ -36,6 +36,7 @@ export default function Terminal({ openWindow }) {
   • projects    - View featured projects & repo links
   • experience  - View internship history
   • contact     - Display contact info & social links
+  • linkedin    - Open LinkedIn profile
   • resume      - Open resume PDF
   • whoami      - Current user information
   • date        - Print current date & time
@@ -52,7 +53,8 @@ export default function Terminal({ openWindow }) {
 🎓 B.Tech Computer Science & Engineering (Expected 2027)
 📍 Dimapur, Nagaland, India
 💼 Full Stack Developer & UI/UX Designer
-⭐ GitHub: https://github.com/Ks1540`
+⭐ GitHub   : https://github.com/Ks1540
+💼 LinkedIn : https://www.linkedin.com/in/kajol-sunar-ks/`
           });
           break;
 
@@ -104,9 +106,18 @@ export default function Terminal({ openWindow }) {
             type: 'output',
             text: `📬 Contact Information:
   • Email     : kajolsunar1292@gmail.com
+  • LinkedIn  : https://www.linkedin.com/in/kajol-sunar-ks/
   • GitHub    : https://github.com/Ks1540
   • Instagram : https://www.instagram.com/kajol.sunar.ks
   • Phone     : +91 9366124046`
+          });
+          break;
+
+        case 'linkedin':
+          window.open('https://www.linkedin.com/in/kajol-sunar-ks/', '_blank');
+          newHistory.push({
+            type: 'output',
+            text: '🔗 Opening LinkedIn profile (https://www.linkedin.com/in/kajol-sunar-ks/) in new tab...'
           });
           break;
 
