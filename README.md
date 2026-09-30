@@ -1,5 +1,13 @@
 # 🌸 Kajol Sunar — Interactive Retro OS Portfolio
 
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-about--me--flame--five.vercel.app-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://about-me-flame-five.vercel.app/)
+[![GitHub Repo](https://img.shields.io/badge/GitHub-Ks1540%2FABOUT--ME-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Ks1540/ABOUT-ME)
+[![React](https://img.shields.io/badge/React-18-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://react.dev/)
+[![Vite](https://img.shields.io/badge/Vite-5-646CFF?style=for-the-badge&logo=vite&logoColor=white)](https://vitejs.dev/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.4-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
+
+> 🌐 **Live Website:** [https://about-me-flame-five.vercel.app/](https://about-me-flame-five.vercel.app/)
+
 A retro desktop operating system simulator portfolio built with **React**, **Vite**, and **Tailwind CSS**. Features interactive draggable windows, custom pixel art icons, synthesized 8-bit sound effects, a functional command-line terminal, dark/light theme switching, and live project highlights.
 
 ![Portfolio Preview](public/light-bg.jpg)
